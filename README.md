@@ -13,7 +13,7 @@
 - Vælg `Modules` i venstre side
 - Klik på `+` knappen og vælg `From Maven...`
 - Indsæt `org.junit.jupiter:junit-jupiter:5.8.1` i feltet og klik **OK**.
-- Klik **Apply** og **Ok** i vinduet der åbner sig.
+- Klik herefter **Apply** og **Ok**.
 
 ## Fremgangsmåde
 For **hver metode**, følg denne fremgangsmåde:
