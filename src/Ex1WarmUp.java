@@ -1,12 +1,9 @@
 public class Ex1WarmUp {
-
-    /**
-     * Returner true hvis vi kan sove længe.
-     * Vi kan sove længe, hvis det ikke er en hverdag, eller hvis vi er på ferie.
-     */
-    public boolean sleepIn(boolean weekday, boolean vacation) {
-        // TODO
-        throw new RuntimeException("Not implemented yet"); // Udkommenter denne linje ved implementation
+    public boolean sleepIn(boolean weekday, boolean vacation){
+        if (!weekday || vacation){
+         return true;
+        }
+        return false;
     }
 
     /**
@@ -14,9 +11,13 @@ public class Ex1WarmUp {
      * Eksempel: sumDouble(2, 2) → 8
      * Eksempel: sumDouble(3, 2) → 5
      */
+
     public int sumDouble(int a, int b) {
-        // TODO
-        throw new RuntimeException("Not implemented yet"); // Udkommenter denne linje ved implementation
+        if (a == b) {
+            return (a + b) * 2;
+        }
+        return a + b;
+        //throw new RuntimeException("Not implemented yet"); // Udkommenter denne linje ved implementation
     }
 
     /**
@@ -138,3 +139,5 @@ public class Ex1WarmUp {
         throw new RuntimeException("Not implemented yet"); // Udkommenter denne linje ved implementation
     }
 }
+
+
