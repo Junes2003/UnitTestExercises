@@ -27,8 +27,11 @@ public class Ex1WarmUp {
      * Eksempel: diff21(22) → 2
      */
     public int diff21(int n) {
-        // TODO
-        throw new RuntimeException("Not implemented yet"); // Udkommenter denne linje ved implementation
+        if (n <= 21){
+            return (21 - n) * 2;
+        }
+        return (21 - n);
+        //throw new RuntimeException("Not implemented yet"); // Udkommenter denne linje ved implementation
     }
 
     /**
